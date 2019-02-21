@@ -27,7 +27,7 @@ metadata:
   namespace: nginx
 spec:
   ports:
-  - nodePort: 80
+  - nodePort: 30500
     port: 80
     protocol: TCP
     targetPort: 80
