@@ -1,6 +1,6 @@
 config:
 subcomponents:
-  nginx:
+  nginx-deployment:
     config:
       namespace: nginx
       files:
