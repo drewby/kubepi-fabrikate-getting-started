@@ -1,0 +1,13 @@
+{
+    "name": "kubepi-fabrikate-getting-started",
+    "generator": "static",
+    "path": "./manifests",
+    "subcomponents": [
+        {
+            "name": "nginx-ingress",
+            "generator": "helm",
+            "repo": "https://github.com/helm/charts",
+            "path": "stable/nginx-ingress"
+        }
+    ]
+}

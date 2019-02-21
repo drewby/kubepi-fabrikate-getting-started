@@ -1,0 +1,7 @@
+config:
+subcomponents:
+  nginx:
+    config:
+      namespace: nginx
+      files:
+        nginx.yml:
